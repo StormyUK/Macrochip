@@ -1,0 +1,22 @@
+[
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "macrochipworkstation" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "macrochip" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "megamacrochip" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "minimacrochip" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "remotemacrochip" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "remoteinput" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "remoteoutput" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "nand" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "nor" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "xnor" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "relay" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "hexdisplay" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "gianthexdisplay" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "itemsensor" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "foundrynand" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "foundrynor" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "foundryxnor" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "foundryrelay" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "definablebutton" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "rgb_spotlight" }}
+]

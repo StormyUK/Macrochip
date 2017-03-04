@@ -1,0 +1,11 @@
+{
+  "itemName" : "vcdatastick",
+  "rarity" : "common",
+  "price" : 0,
+  "category" : "Macrochip Data",
+  "inventoryIcon" : "vcdatastick.png",
+  "description" : "A Datastick from a macrochip.",
+  "shortdescription" : "Datastick",
+
+  "learnBlueprintsOnPickup" : [ ]
+}

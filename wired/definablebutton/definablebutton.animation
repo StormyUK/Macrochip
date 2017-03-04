@@ -1,0 +1,46 @@
+{
+  "globalTagDefaults" : {
+    "buttonColor" : "red", "buttonColorOff" : "red",
+    "decal" : "ques", "decalOff" : "ques",
+    "decalColor" : "FFFFFF", "decalColorOff" : "FFFFFF"
+  },
+  
+  "animatedParts" : {
+    "stateTypes" : {
+      "switchState" : {
+        "default" : "off",
+        "states" : {
+          "off" : { "frames" : 1 },
+          "on"  : { "frames" : 1 },
+          "off_lit" : { "frames" : 1 },
+          "on_lit"  : { "frames" : 1 }
+        }
+      }
+    },
+
+    "parts" : {
+      "decal" : {
+        "properties" : { "centered" : false },
+        "partStates" : {
+          "switchState" : {
+            "off"    : { "properties" : { "image" : "<partImage>:<decalOff>?multiply=<decalColorOff>?brightness=-30" } },
+            "on"     : { "properties" : { "image" : "<partImage>:<decal>?multiply=<decalColor>" } },
+            "off_lit"    : { "properties" : { "image" : "<partImage>:<decalOff>?multiply=<decalColorOff>?brightness=-30", "fullbright" : true } },
+            "on_lit"     : { "properties" : { "image" : "<partImage>:<decal>?multiply=<decalColor>", "fullbright" : true } }
+          }
+        }
+      },
+      "switch" : {
+        "properties" : { "centered" : false },
+        "partStates" : {
+          "switchState" : {
+            "off"  : { "properties" : { "image" : "<partImage>:<buttonColorOff>?brightness=-30" } },
+            "on"   : { "properties" : { "image" : "<partImage>:<buttonColor>?flipxy" } },
+            "off_lit"  : { "properties" : { "image" : "<partImage>:<buttonColorOff>?brightness=-30", "fullbright" : true } },
+            "on_lit"   : { "properties" : { "image" : "<partImage>:<buttonColor>?flipxy", "fullbright" : true } }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "foundryand", "count" : 1 }
+  ],
+  "output" : { "item" : "foundrynand", "count" : 1 },
+  "groups" : [ "craftingwiring", "logic" ]
+}

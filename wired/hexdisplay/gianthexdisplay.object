@@ -1,0 +1,39 @@
+{
+  "objectName" : "gianthexdisplay",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 50,
+  "description" : "This evaluates four inputs as binary and displays the hexidecimal equivalent.",
+  "shortdescription" : "Giant Hexidecimal Display",
+  "race" : "generic",
+    
+  "inventoryIcon" : "gianthexdisplayicon.png",
+
+  "floranDescription" : "Thisss shows different letternumberss by what its inputs sssay.",
+  "glitchDescription" : "Pleased. This evaluates its four inputs as binary and displays the hexidecimal equivalent.",
+  
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gianthexdisplay.png:8.blue", "fullbright" : true } ],
+      "imagePosition" : [-8,-16],
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/objects/wired/hexdisplay/hexdisplay.animation",
+
+  "animationParts" : {
+    "display" : "gianthexdisplay.png"
+  },
+  "animationPosition" : [4,4],
+  
+  "inputNodes" : [ [ -1, -1 ], [ -1, 0 ], [ -1, 1 ], [ -1, 2 ], [ -1, -2 ] ],
+
+  "scripts" : [ "hexdisplay.lua" ],
+  "scriptDelta" : 1
+}

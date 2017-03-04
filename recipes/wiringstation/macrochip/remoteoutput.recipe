@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "siliconboard", "count" : 1 }
+  ],
+  "output" : { "item" : "remoteoutput", "count" : 1 },
+  "groups" : [ "craftingwiring", "logic" ]
+}

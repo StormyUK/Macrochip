@@ -1,0 +1,62 @@
+{
+  "globalTagDefaults" : {
+    "col" : "blue"
+  },
+  
+  "animatedParts" : {
+    "stateTypes" : {
+      "displayState" : {
+        "default" : "off",
+        "states" : {
+          "off" : { "frames" : 1 },
+          "0000" : { "frames" : 1 },
+          "0001" : { "frames" : 1 },
+          "0010" : { "frames" : 1 },
+          "0011" : { "frames" : 1 },
+          "0100" : { "frames" : 1 },
+          "0101" : { "frames" : 1 },
+          "0110" : { "frames" : 1 },
+          "0111" : { "frames" : 1 },
+          "1000" : { "frames" : 1 },
+          "1001" : { "frames" : 1 },
+          "1010" : { "frames" : 1 },
+          "1011" : { "frames" : 1 },
+          "1100" : { "frames" : 1 },
+          "1101" : { "frames" : 1 },
+          "1110" : { "frames" : 1 },
+          "1111" : { "frames" : 1 }          
+        }
+      }
+    },
+
+    "parts" : {
+      "display" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "displayState" : {
+            "off"  : { "properties" : { "image" : "<partImage>:off.<col>" } },
+            "0000" : { "properties" : { "image" : "<partImage>:0.<col>" } },
+            "0001" : { "properties" : { "image" : "<partImage>:1.<col>" } },
+            "0010" : { "properties" : { "image" : "<partImage>:2.<col>" } },
+            "0011" : { "properties" : { "image" : "<partImage>:3.<col>" } },
+            "0100" : { "properties" : { "image" : "<partImage>:4.<col>" } },
+            "0101" : { "properties" : { "image" : "<partImage>:5.<col>" } },
+            "0110" : { "properties" : { "image" : "<partImage>:6.<col>" } },
+            "0111" : { "properties" : { "image" : "<partImage>:7.<col>" } },
+            "1000" : { "properties" : { "image" : "<partImage>:8.<col>" } },
+            "1001" : { "properties" : { "image" : "<partImage>:9.<col>" } },
+            "1010" : { "properties" : { "image" : "<partImage>:a.<col>" } },
+            "1011" : { "properties" : { "image" : "<partImage>:b.<col>" } },
+            "1100" : { "properties" : { "image" : "<partImage>:c.<col>" } },
+            "1101" : { "properties" : { "image" : "<partImage>:d.<col>" } },
+            "1110" : { "properties" : { "image" : "<partImage>:e.<col>" } },
+            "1111" : { "properties" : { "image" : "<partImage>:f.<col>" } }            
+          }
+        }
+      }
+    }
+  }
+}

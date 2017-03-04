@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "smallbattery", "count" : 2 },
+    { "item" : "siliconboard", "count" : 4 },
+    { "item" : "wire", "count" : 6 }
+  ],
+  "output" : { "item" : "megamacrochip", "count" : 1 },
+  "groups" : [ "craftingwiring", "logic" ]
+}
