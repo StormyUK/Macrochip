@@ -1,12 +1,12 @@
 {
   "author" : "Storm_UK",
   "priority" : 100,
-  "friendlyName" : "^darkcyan;Macrochip WIP",
+  "friendlyName" : "^darkcyan;Macrochip ^red;WIP",
   "link" : "steam://url/CommunityFilePage/876060122",
   "steamContentId" : "876060122",
   "name" : "macrochip WIP",
   "path" : ".",
-  "description" : "WIP version. Create 'virtual circuits' inside Macrochips, saving footprint space in game world. Also revises and includes additional logic gates and other objects.",
+  "description" : "Work in Progress version. Create 'virtual circuits' inside Macrochips. Also revises vanilla games logic gates and includes additional objects.",
   "requires" : [],
-  "version" : "v3.51 WIP"
+  "version" : "v4.02 WIP"
 }
