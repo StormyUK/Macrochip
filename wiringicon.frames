@@ -1,0 +1,13 @@
+{
+  "frameGrid" : {
+    "size" : [36, 36],
+    "dimensions" : [3, 5],
+    "names" : [
+      [ "default.0", "hover.0", "selected.0" ],
+      [ "default.1", "hover.1", "selected.1" ],
+      [ "default.2", "hover.2", "selected.2" ],
+      [ "default.3", "hover.3", "selected.3" ],
+      [ "default.4", "hover.4", "selected.4" ]
+    ]
+  }
+}
